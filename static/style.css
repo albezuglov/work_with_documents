@@ -1,0 +1,45 @@
+*, *::before, *::after { box-sizing: border-box; }
+body { font: 62.5%/1.4 Verdana, Arial, Helvetica, sans-serif; background-color: #F5F5F5; }
+body, a, a:visited  { color: #000; }
+p { color: #6F6560; }
+h1, h2, h3 { margin-top: 0; letter-spacing: 0.1em; }
+h2 { font-size: 1.4em; font-weight: normal; }
+h4 { font-weight: normal; line-height: 1em; margin-top: 0.5em; }
+
+a { text-decoration: none; color: inherit; }
+a:hover, a:focus { color: #e55886; }
+a:hover h3, a:focus h3 { text-decoration: none; }
+
+.content { margin: 0 auto;  width: 100%; font-size: 1.1em; }
+
+@media only screen and (min-width: 800px){ .content {  font-size: 1.2em; } }
+@media only screen and (min-width: 992px) { .content {  font-size: 1.4em; } }
+@media only screen and (min-width: 1382px){ .content { font-size: 2em; } }
+
+ul.menu { display: inline-block; width: 60%; padding: 0; }
+.menu li { list-style: none; display: inline-block; }
+.menu li a { padding: 0 2em; }
+/*------------------------------ Header ------------------------------*/
+header { font-size: 1.2em; }
+.logo { font-size: 3em; }
+/*----------------------------- !Header ------------------------------*/
+
+
+/*---------------------------- Navigation  ---------------------------*/
+/*--------------------------- !Navigation  ----------------------------*/
+
+
+/*------------------------------ Content ------------------------------*/
+.main { width: 100%; }
+
+/*---- Mainpage ----*/
+/*--- !Mainpage ----*/
+/*----------------------------- !Contents ------------------------------*/
+
+
+/*------------------------------ Footer ------------------------------*/
+/*----------------------------- !Footer ------------------------------*/
+
+
+/*----------------------------- Contacts -------------------------------*/
+/*---------------------------- !Contacts -------------------------------*/
