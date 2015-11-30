@@ -1,0 +1,19 @@
+
+// Mixins
+@import "../components/prefixer";
+@import "../components/mixins";
+//@import "../components/color";
+
+@import "../components/color";
+
+// Variables;
+@import "../components/variables";
+
+// Reset
+@import "../components/normalize";
+
+@import "../components/global";
+@import "../components/buttons";
+@import "../components/typography";
+
+body { background-color: color("red", "lighten-5"); }

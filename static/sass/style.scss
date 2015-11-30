@@ -1,4 +1,9 @@
-*, *::before, *::after { box-sizing: border-box; }
+@charset "UTF-8";
+
+@import "core/_base.scss";
+
+
+/**, *::before, *::after { box-sizing: border-box; }
 body { font: 62.5%/1.4 Verdana, Arial, Helvetica, sans-serif; background-color: #b3f4a5; }
 body, a, a:visited  { color: #000; }
 p { color: #6F6560; }
@@ -17,10 +22,10 @@ a:hover h3, a:focus h3 { text-decoration: none; }
 
 ul.menu { display: inline-block; width: 60%; padding: 0; }
 .menu li { list-style: none; display: inline-block; }
-.menu li a { padding: 0 2em; }
+.menu li a { padding: 0 2em; }*/
 /*------------------------------ Header ------------------------------*/
-header { font-size: 1.2em; }
-.logo { font-size: 3em; }
+/*header { font-size: 1.2em; }
+.logo { font-size: 3em; }*/
 /*----------------------------- !Header ------------------------------*/
 
 
