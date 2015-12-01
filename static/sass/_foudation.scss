@@ -1,0 +1,81 @@
+// Foundation for Sites by ZURB
+// foundation.zurb.com
+// Licensed under MIT Open Source
+
+$foundation-version: '6.0.0-alpha.1';
+
+// Third-party libraries
+@import 'foundation-sites-6/scss/vendor/normalize';
+
+// Global variables and styles
+@import 'foundation-sites-6/scss/global';
+
+// Components
+@import
+  'foundation-sites-6/scss/grid/grid',
+  'foundation-sites-6/scss/typography/typography',
+  'foundation-sites-6/scss/forms/forms',
+  'foundation-sites-6/scss/components/visibility',
+  'foundation-sites-6/scss/components/float',
+  'foundation-sites-6/scss/components/button',
+  'foundation-sites-6/scss/components/button-group',
+  'foundation-sites-6/scss/components/accordion-menu',
+  'foundation-sites-6/scss/components/accordion',
+  'foundation-sites-6/scss/components/badge',
+  'foundation-sites-6/scss/components/breadcrumbs',
+  'foundation-sites-6/scss/components/callout',
+  'foundation-sites-6/scss/components/close-button',
+  'foundation-sites-6/scss/components/drilldown',
+  'foundation-sites-6/scss/components/dropdown-menu',
+  'foundation-sites-6/scss/components/dropdown',
+  'foundation-sites-6/scss/components/flex-video',
+  'foundation-sites-6/scss/components/label',
+  'foundation-sites-6/scss/components/media-object',
+  'foundation-sites-6/scss/components/menu',
+  'foundation-sites-6/scss/components/off-canvas',
+  'foundation-sites-6/scss/components/orbit',
+  'foundation-sites-6/scss/components/pagination',
+  'foundation-sites-6/scss/components/progress-bar',
+  'foundation-sites-6/scss/components/reveal',
+  'foundation-sites-6/scss/components/slider',
+  'foundation-sites-6/scss/components/sticky',
+  'foundation-sites-6/scss/components/switch',
+  'foundation-sites-6/scss/components/table',
+  'foundation-sites-6/scss/components/tabs',
+  'foundation-sites-6/scss/components/title-bar',
+  'foundation-sites-6/scss/components/top-bar',
+  'foundation-sites-6/scss/components/thumbnail',
+  'foundation-sites-6/scss/components/tooltip';
+
+// These styles are applied to <meta> tags, which are read by the Foundation JavaScript
+.foundation-mq {
+  font-family: "#{-zf-bp-serialize($breakpoints)}";
+}
+
+// These elements aren't styled with material design.
+// However, if you need them you can easily uncomment them
+@mixin foundation-everything {
+  // @include foundation-accordion;
+  // @include foundation-badge;
+  // @include foundation-breadcrumbs;
+  // @include foundation-callout;
+  // @include foundation-close-button;
+  // @include foundation-drilldown-menu;
+  // @include foundation-dropdown;
+  // @include foundation-dropdown-menu
+  // @include foundation-flex-video;
+  // @include foundation-label;
+  // @include foundation-media-object;
+  // @include foundation-off-canvas;
+  // @include foundation-orbit;
+  // @include foundation-pagination;
+  // @include foundation-progress-bar;
+  // @include foundation-slider;
+  // @include foundation-sticky;
+  // @include foundation-reveal;
+  // @include foundation-table;
+  // @include foundation-thumbnail;
+  // @include foundation-title-bar;
+}
+
+@include foundation-everything;
