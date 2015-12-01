@@ -1,9 +1,9 @@
 @import
   "material-foundation";
-
 body {
   background: $grey-50;
 }
+
 header {
   background: $primary-color;
   overflow: hidden;
@@ -50,6 +50,7 @@ h2.demo-headline {
 .icons {
   text-align: center;
 }
+
 .icons i {
   font-size: 48px;
   display: inline-block;
@@ -59,6 +60,7 @@ h2.demo-headline {
   margin: 10px;
   color: $grey-500;
 }
+
 .floating-action-button {
   margin-right: 15px;
 }
